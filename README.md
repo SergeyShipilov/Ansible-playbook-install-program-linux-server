@@ -76,7 +76,7 @@ ansible-galaxy install -r roles/requirements.yml
 ansible-galaxy install -g -f -r roles/requirements.yml
 ```
 
-# Run the Playbook create user
+# Run the Playbook install
 Run the playbook by specifying your inventory file and variable file:
 
 ```
