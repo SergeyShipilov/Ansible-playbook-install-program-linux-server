@@ -1,7 +1,7 @@
 ---
   - name: sshd_config
     become: true
-    hosts: "{{ hosts }}"
+    hosts: "{{ host }}"
     vars:
       sshd_config: "/etc/ssh/sshd_config"
 

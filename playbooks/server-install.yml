@@ -1,7 +1,7 @@
 ---
 - name: server-install
   become: true
-  hosts: "{{ hosts }}"
+  hosts: "{{ host }}"
   vars:
     env: "prod"
     env_color: "033[0;33m"

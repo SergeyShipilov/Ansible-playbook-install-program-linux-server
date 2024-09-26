@@ -1,7 +1,7 @@
 ---
   - name: install firewall ufw
     become: true
-    hosts: "{{ hosts }}"
+    hosts: "{{ host }}"
     vars:
       ssh_port: "22"
       ufw_config: /etc/default/ufw
