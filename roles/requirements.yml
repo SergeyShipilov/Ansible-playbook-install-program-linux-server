@@ -1,0 +1,7 @@
+collections:
+  - name: community.docker
+  - name: community.zabbix
+
+roles:
+  - src: frzk.chrony
+  - src: oefenweb.ufw
